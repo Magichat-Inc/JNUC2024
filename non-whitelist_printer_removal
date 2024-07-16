@@ -1,0 +1,23 @@
+#!/bin/bash
+
+# Whitelist printer's name
+# Please input the printer name
+printer1=""
+printer2=""
+
+# Get the printer list installed on the machine
+printer_name=$(lpstat -a | awk -F " " '{print $1}' )
+echo "$printer_name"
+printer_list=$(echo "$printer_name")
+
+# Read one by one and see if it matches the whitelist printer's name or not
+# If not, then delete it
+IFS="/n"
+while read printer; do
+	echo "$printer"
+	if [[ $printer != ${printer1} && $printer != ${printer2} ]]
+	then
+		echo "will delete $printer"
+		lpadmin -x "$printer"
+	fi
+done <<< "$printer_list"
