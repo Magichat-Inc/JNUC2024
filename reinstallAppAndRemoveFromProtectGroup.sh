@@ -11,11 +11,14 @@
 # Example: https://xxxxxx.jamfcloud.com/policies.html?id=587 - the id is 587
 policyID="$4"
 
+# Run re-install policy
 sudo jamf policy -id "${policyID}"
 
+# Reset the analytic detection on computers
 sudo /bin/rm /Library/Application\ Support/JamfProtect/groups/movedAdobeAcrobatReaderToTrash
 sudo /bin/rm /Library/Application\ Support/JamfProtect/groups/deletedAdobeAcrobatReader
 
+# Run inventory update
 sudo jamf recon &
 
 exit 0
