@@ -24,8 +24,8 @@ Session details: <https://reg.jnuc.jamf.com/flow/jamf/jnuc2024/sessioncatalog202
 These settings will be featured in "From Data to Decisions: Navigating Jamf Protect’s Custom Analytic and Unified Logging" session on Thursday, October 3rd at the JNUC 2024 Conference and will be included in our session's handout which will be published later on the same session link.
 
 - reinstallAppAndRemoveFromProtectGroup.sh
-- Enable Unified Log Private Data.mobileconfig
-- non-whitelist_printer_removal.sh
+- enableUnifiedLogPrivateData.mobileconfig
+- nonWhitelistPrinterRemoval.sh
 
 ## [reinstallAppAndRemoveFromProtectGroup](#reinstallappandremovefromprotectgroup)
 This script is to reinstall a specific application and remove the device from the Jamf Protect Smart Group.
