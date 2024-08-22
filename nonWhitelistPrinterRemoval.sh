@@ -1,7 +1,14 @@
 #!/bin/bash
 
+####################################################################################################
+# Check if there is any non-whitelist printer installed and delete the non-whitelist printer if found.
+#                         
+# Author: Magic Hat Inc. (Natnicha Sangsasitorn)           
+# Last modified: 2024/08/22
+####################################################################################################
+
 # Whitelist printer's name
-# Please input the printer name
+# Please input the whitelist printer's name
 printer1=""
 printer2=""
 
