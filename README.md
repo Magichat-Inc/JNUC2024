@@ -19,6 +19,9 @@ In this session, we will guide you through the entire process of creating Custom
 
 You'll learn how to utilize all this and more through practical examples, tips and tricks to make the most out of these functions and set your IT team up for success.
 
+Session details: 
+<https://reg.jnuc.jamf.com/flow/jamf/jnuc2024/sessioncatalog2024/page/sessioncatalog/session/1713678511492001QkxS>
+
 ## [Overview](#overview)
 These settings and scripts will be featured in "From Data to Decisions: Navigating Jamf Protect’s Custom Analytic and Unified Logging" session on Thursday, October 3rd at the JNUC 2024 Conference and will be included in our session's handout which will be published later on the same session link.
 
