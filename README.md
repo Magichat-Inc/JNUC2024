@@ -6,7 +6,8 @@ This repo contains the resource files from our JNUC 2024 session.
 - [Overview](#overview)
   - [reinstallAppAndRemoveFromProtectGroup](#reinstallappandremovefromprotectgroup)
   - [enableUnifiedLogPrivateData](#enableunifiedlogprivatedata)
-  - [nonWhitelistPrinterRemoval](#nonwhitelistprinterremoval) 
+  - [nonWhitelistPrinterRemoval](#nonwhitelistprinterremoval)
+- [PresentationDocuments](#Presentationdocuments)
 
 ## [Introduction](#introduction)
 Custom Analytics and Unified Logging are powerful functions that help you monitor and understand user behaviors while utilizing the computers within your organization. However, these functions are often underutilized, especially in Japan, due to their complexity and lack of beginner-friendly resources.
@@ -40,3 +41,6 @@ As a result, the system log shown in the Console application or from the "log sh
 ## [nonWhitelistPrinterRemoval](#nonwhitelistprinterremoval) 
 This script checks for any non-whitelisted printers installed and deletes them if found.  
 It will be featured in an additional customer success story in our session's handout.
+
+## [PresentationDocuments](#Presentationdocuments)
+https://magichat.box.com/s/haj44d5ofj3nbta3qtihvwfxxkpvahvd
